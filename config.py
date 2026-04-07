@@ -75,10 +75,6 @@ class Config:
         #     # "unsup_dump_model_path": "tmp/model_ckpt/unsup_SimBERT"
         # }
         # self.retriever_model_ckpt = self.train_retriever["dump_model_path"]
-        # self.retrieve_subgraph = {
-        #     "load_data_folder": "/home/horanchen/ydy/study/code/SubgraphRetrievalKBQA-main/src/tmp/data/origin_nsm_data/webqsp",
-        #     "dump_data_folder": "/home/horanchen/ydy/study/code/SubgraphRetrievalKBQA-main/src/tmp/reader_data/webqsp"
-        # }
         # self.train_reader = {
         #     "load_data_path": "tmp/reader_data/webqsp/",
         #     "dump_model_path": "tmp/model_ckpt/nsm/",
