@@ -3,7 +3,7 @@ import json
 from models.inference_models import get_inference_model, get_local_response # , get_vllm_infer_model, get_local_response_vllm
 from models.value_models import get_value_model, get_local_value # , get_vllm_value_model, get_local_value_vllm
 
-path = '/home/horanchen/ydy/study/code/17SRA-MCTS/llama3.1-8-instruct'
+path = 'llama3.1-8-instruct'
 
 INFERENCE_MODEL_DIR = path
 # LOCAL_INFERENCE_TYPES = ['mistral', 'llama', 'qwen', 'gemma']
