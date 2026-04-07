@@ -8,7 +8,7 @@ device=0
 
 cd retriever
 
-model_name_or_path="/home/horanchen/ydy/study/code/SubgraphRetrievalKBQA-main-ydy/src/roberta-base"
+model_name_or_path="src/roberta-base"
 #ls -lh model_name_or_path
 # model_name_or_path="../tmp/model_ckpt/SimCSE_roberta"
 
