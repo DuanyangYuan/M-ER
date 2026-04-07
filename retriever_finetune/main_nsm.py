@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser()
 # datasets
 parser.add_argument('--name', default='webqsp', type=str)
 parser.add_argument('--model_name', default='gnn', type=str)
-parser.add_argument('--data_folder', default='/home/horanchen/ydy/study/code/SubgraphRetrievalKBQA-main/src/tmp/reader_data/webqsp/', type=str)
+parser.add_argument('--data_folder', default='src/tmp/reader_data/webqsp/', type=str)
 
 # embeddings
 parser.add_argument('--word2id', default='vocab_new.txt', type=str)
@@ -59,7 +59,7 @@ parser.add_argument('--use_inverse_relation', default=False,action='store_true')
 parser.add_argument('--use_self_loop', default=False,action='store_true')
 parser.add_argument('--train_KL', default=False,action='store_true')
 parser.add_argument('--is_eval', default=False,action='store_true')
-parser.add_argument('--checkpoint_dir', default='/home/horanchen/ydy/study/code/SubgraphRetrievalKBQA-main/src/tmp/model_ckpt/nsm/', type=str)
+parser.add_argument('--checkpoint_dir', default='src/tmp/model_ckpt/nsm/', type=str)
 parser.add_argument('--log_level', type=str, default='info')
 parser.add_argument('--experiment_name', default='webqsp_nsm', type=str)
 parser.add_argument('--load_experiment', default='webqsp_nsm-final.ckpt', type=str)
