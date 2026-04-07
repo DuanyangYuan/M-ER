@@ -5,7 +5,7 @@ from copy import deepcopy
 
 class KnowledgeGraphCache(object):
 
-    def __init__(self, kb_filename = '/home/horanchen/ydy/study/code/16SubgraphRetrievalKBQA-main-ydy-sra/src/tmp/subgraph_hop1.txt') -> None:
+    def __init__(self, kb_filename = 'src/tmp/subgraph_hop1.txt') -> None:
 
         self.triples: Dict[str, Tuple[str, str, str]
                            ] = self._load_triples(kb_filename)
