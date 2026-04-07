@@ -8,7 +8,7 @@ from loguru import logger
 from collections import Counter
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--load_data_path", default='/home/horanchen/ydy/study/code/16SubgraphRetrievalKBQA-main-ydy-sra/src/tmp/reader_data/webqsp', type=str)
+parser.add_argument("--load_data_path", default='src/tmp/reader_data/webqsp', type=str)
 args = parser.parse_args()
 
 load_data_path = args.load_data_path
